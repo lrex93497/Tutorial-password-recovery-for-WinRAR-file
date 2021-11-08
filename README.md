@@ -80,8 +80,9 @@ In my case:
 ```
 
 <br /><br />
-This means crack from the minimum length of 1 to maximum 10, all numbers, try possible password at 0 to 9999999999, the mode is 13000 for rar5. To change minimum 
-length, edit value in  "--increment-min=". To change maximum length, edit value in "--increment-max=".<br /><br />
+This means crack from the minimum length of 1 to maximum 10, all numbers, try possible password at 0 to 9999999999, the mode is 13000 for RAR5 (12500 for RAR3-hp, 
+check what type to use at beginning of the hash). To change minimum length, edit value in  "--increment-min=". To change maximum length, edit value in "--increment-max=".
+<br /><br />
 
 For ?d?d?d?d?d?d?d?d?d, which is the mask, it should match the length of the value "--increment-max=". ? means that value unknow. If a specific value of the password 
 is known, like I know the first 3 password characters is 502, then, 502?d?d?d?d?d?d?, this can save time. On the letter, d means number, u means capital letter, l 
